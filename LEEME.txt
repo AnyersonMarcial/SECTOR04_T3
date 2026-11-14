@@ -1,0 +1,24 @@
+SECTOR 04 — VERSIÓN BASE T3
+==========================
+
+1. Extrae el ZIP y abre index.html en Chrome o Edge.
+2. Pulsa JUGAR.
+3. Controles: WASD, mouse, clic izquierdo (UN disparo por clic), 1 (fusil),
+   2 (escopeta), R (recarga con reserva), SHIFT (correr), ESPACIO (saltar),
+   clic derecho (empujar) y ESC (pausa).
+
+REGLAS OBLIGATORIAS IMPLEMENTADAS
+- Dos armas cargadas desde modelos GLB (archivos en assets/).
+- Zombi Mixamo cargado desde GLB, con animaciones externas (idle/walk/attack/death).
+- Dos impactos válidos para eliminar cualquier zombi; cada escopetazo sólo cuenta
+  una vez por enemigo aunque lo alcancen varios perdigones.
+- Un disparo por clic; mantener pulsado no produce fuego automático.
+- Game Over inmediato al tocar un zombi.
+- Enemigos inactivos fuera de su radio de detección.
+- Reservas de munición separadas; reabastecimiento en objetos del escenario.
+- Zona de extracción señalizada y mensaje final obligatorio.
+
+ATENCIÓN: paquete construido a partir de 11.zip. NO incluye los cambios
+posteriores del protagonista SWAT GUY que estaban en otro ZIP.
+
+Lee README.md para el estado de cada RF, el código, las pruebas y los entregables.
